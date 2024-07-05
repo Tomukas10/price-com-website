@@ -1,3 +1,42 @@
-.firstpara{
-    color: pink;
+
+.navbar #logoMain{
+    height: 50px;
+    width: 50px;
+    margin-left: 23%;
+}
+
+.navbar{
+    overflow: hidden;
+    text-align: center;
+    float: center;
+    display: flex;
+    border: solid;
+    border-color: black;
+  
+
+
+}
+
+.navbar #searchBar{
+   
+    padding: 10px;
+    margin-left: 30px;
+    width: 40%;
+    font-size: 20px;
+    margin-right: 10px;
+
+
+}
+
+.navbar #category{
+    font-size: 15px;
+
+}
+
+#mainHr{
+    border-top: 3px solid grey;
+    width: 100%;
+    
+    
+    
 }
