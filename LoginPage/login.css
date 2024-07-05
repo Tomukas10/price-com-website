@@ -1,0 +1,18 @@
+.loginContainer{
+    float: center;
+    text-align: center;
+}
+
+.loginContainer #continueButton{
+    float: center;
+    text-align: center;
+    color:white;
+    background-color: rgb(78, 78, 222);
+    border: 2px solid rgb(78, 78, 222);
+    border-radius: 20px;
+    padding-top: 20px;
+    padding-right: 100px;
+    padding-bottom: 20px;
+    padding-left: 100px;
+
+}
