@@ -1,16 +1,35 @@
-
-.navbar #logoMain{
+body{
+    background-color: #fafcfa;
+}
+.navbar #mainLogo{
     height: 50px;
     width: 50px;
-    margin-left: 23%;
+    margin-left: 10%;
+    border: 1px solid;
+    border-radius: 10%;
+}
+
+.navbar #mainProfile{
+    height: 50px;
+    width: 50px;
+    margin-left: 35%;
+    border-radius: 90%;
+}
+
+.navbar #mainProfileImage{
+    height: 55px;
+    width: 55px;
+    border: 0px solid;
+    border-radius: 90%;
 }
 
 .navbar{
+    
     overflow: hidden;
     text-align: center;
     float: center;
     display: flex;
-    border: solid;
+    /*border: solid;*/
     border-color: black;
   
 
@@ -22,21 +41,69 @@
     padding: 10px;
     margin-left: 30px;
     width: 40%;
-    font-size: 20px;
+    font-size: 25px;
     margin-right: 10px;
+    border: 1px solid;
+    border-radius: 30px;
 
 
 }
 
 .navbar #category{
     font-size: 15px;
-
+    background-color: lightskyblue;
+    border: 1px solid grey;
+    border-radius: 10%;
 }
 
 #mainHr{
-    border-top: 3px solid grey;
-    width: 100%;
+    margin: 10px -20px 0px;
+    border: 0;
+    border-top: 1px solid #c9c7c7;
+}
+
+#categoryBar{
+    border: 0px solid;
+    display: flex;
+    float: center;
+    text-align: center;
+    background-color: bisque;
+    margin: 0px -20px 0px;
+
+  
+}
+
+#categoryBar .categoryBarItems{
+    margin-left: auto;
+    font-size: auto;
+    border: 0px solid grey;
+    border-radius: 20px;
+    padding-left: 70px;
+    padding-right: 70px;
+    background-color: black;
+    color: white;
+
+   
     
     
+}
+
+#categoryBar #categoryBarFavorites{
+    margin-left: 5%;
+    font-size: auto;
+    border: 0px solid grey;
+    background-color: #a7f4b0;
+    border-radius: 10px;
+    padding-left: 20px;
+    padding-right: 20px;
+   
     
+    
+}
+
+
+#categoryBarHr{
+    margin: 0px -20px 0px;
+    border: 0 solid;
+    border-top: 1px solid #c9c7c7;
 }
