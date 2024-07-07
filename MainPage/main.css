@@ -1,12 +1,17 @@
 body{
     background-color: #fafcfa;
 }
-.navbar #mainLogo{
-    height: 50px;
-    width: 50px;
-    margin-left: 10%;
-    border: 1px solid;
+.navbar .mainLogo{
+    height: 100%;
+    width: 100%;
     border-radius: 10%;
+    float: right;
+}
+
+.navbar #mainLogoContainer{
+    height: 55px;
+    width:  55px;
+    margin-left: 3%;
 }
 
 .navbar #mainProfile{
@@ -17,8 +22,8 @@ body{
 }
 
 .navbar #mainProfileImage{
-    height: 55px;
-    width: 55px;
+    height: 100%;
+    width: 100%;
     border: 0px solid;
     border-radius: 90%;
 }
@@ -28,18 +33,16 @@ body{
     overflow: hidden;
     text-align: center;
     float: center;
-    display: flex;
+    display:flex;
     /*border: solid;*/
     border-color: black;
   
-
-
 }
 
 .navbar #searchBar{
    
     padding: 10px;
-    margin-left: 30px;
+    margin-left: 2%;
     width: 40%;
     font-size: 25px;
     margin-right: 10px;
@@ -74,12 +77,12 @@ body{
 }
 
 #categoryBar .categoryBarItems{
-    margin-left: auto;
+    margin-left: 1%;
     font-size: auto;
     border: 0px solid grey;
     border-radius: 20px;
-    padding-left: 70px;
-    padding-right: 70px;
+    padding-left: 3%;
+    padding-right: 3%;
     background-color: black;
     color: white;
 
