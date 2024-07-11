@@ -9,15 +9,15 @@ body{
 }
 
 .navbar #mainLogoContainer{
-    height: 55px;
-    width:  55px;
+    max-height: 55px;
+    max-width:  55px;
     margin-left: 3%;
 }
 
-.navbar #mainProfile{
-    height: 50px;
-    width: 50px;
-    margin-left: 35%;
+.navbar #mainProfileContainer{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 40%;
     border-radius: 90%;
 }
 
@@ -110,3 +110,6 @@ body{
     border: 0 solid;
     border-top: 1px solid #c9c7c7;
 }
+
+.limit400 { max-width:400px; }
+.limit1980 { max-width:1980px; }
