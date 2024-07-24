@@ -40,8 +40,38 @@
     border: 2px solid rgb(78, 78, 222);
     border-radius: 20px;
     padding-top: 20px;
-    padding-right: 100px;
+    padding-right: 120px;
     padding-bottom: 20px;
-    padding-left: 100px;
+    padding-left: 120px;
 
+}
+
+.signin-msg{
+    float: center;
+    text-align: center;
+    padding-bottom: 11px;
+}
+
+.heading{
+    margin: 0;
+  font-size: 40px;
+  font-weight: 700;
+  font-style: normal;
+  font-family: Arial, Helvetica, sans-serif;
+  font-stretch: normal;
+  line-height: 36px;
+  letter-spacing: normal;
+  padding-top: 15px;
+  padding-bottom: 5px;
+  color: #151e27;
+}
+.sub-heading{
+    font-size: 17px;
+    max-width: 340px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.sub-heading a {
+    text-decoration: underline;
+  color: #3665f3;
+  cursor: pointer;
 }
