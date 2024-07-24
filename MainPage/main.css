@@ -72,6 +72,8 @@ body{
     text-align: center;
     background-color: bisque;
     margin: 0px -20px 0px;
+    width: auto;
+    height: auto;
 
   
 }
@@ -92,7 +94,7 @@ body{
 }
 
 #categoryBar #categoryBarFavorites{
-    margin-left: 9%;
+    margin-left: 5%;
     font-size: auto;
     border: 0px solid grey;
     background-color: #a7f4b0;
