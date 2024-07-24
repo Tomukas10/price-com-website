@@ -30,12 +30,12 @@ body{
 
 .navbar{
     
+    margin-top: 1%;
     overflow: hidden;
     text-align: center;
     float: center;
     display:flex;
     /*border: solid;*/
-    border-color: black;
   
 }
 
@@ -60,7 +60,7 @@ body{
 }
 
 #mainHr{
-    margin: 10px -20px 0px;
+    margin: 5px -20px 0px;
     border: 0;
     border-top: 1px solid #c9c7c7;
 }
@@ -73,7 +73,7 @@ body{
     background-color: bisque;
     margin: 0px -20px 0px;
     width: auto;
-    height: auto;
+    height: 45px;
 
   
 }
@@ -83,6 +83,7 @@ body{
     font-size: auto;
     border: 0px solid grey;
     border-radius: 20px;
+    padding-top: 0.75%;
     padding-left: 3%;
     padding-right: 3%;
     background-color: black;
@@ -101,6 +102,7 @@ body{
     border-radius: 10px;
     padding-left: 20px;
     padding-right: 20px;
+    padding-top: 0.75%;
    
     
     
@@ -108,10 +110,31 @@ body{
 
 
 #categoryBarHr{
-    margin: 0px -20px 0px;
+    margin: 0px -20px 10px;
     border: 0 solid;
     border-top: 1px solid #c9c7c7;
 }
+
+ #myCarousel{
+    width: 1000px;
+    height: 400px;
+    margin: 1% 5% 0% 19%;
+    
+} 
+.carousel-inner > .item {
+    height: 400px;
+    width: 1000px;
+    object-fit: cover;
+ }
+
+ .carousel-inner{
+    height: 400px;
+    width: 1000px;
+    object-fit: cover;
+
+ }
+ 
+
 
 .limit400 { max-width:400px; }
 .limit1980 { max-width:1980px; }
