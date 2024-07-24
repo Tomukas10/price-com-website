@@ -2,6 +2,35 @@
     float: center;
     text-align: center;
 }
+.navbar .mainLogo{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    float: right;
+}
+
+.navbar #mainLogoContainer{
+    height: 55px;
+    width:  55px;
+    margin-left: 3%;
+}
+
+.navbar{
+    
+    overflow: hidden;
+    text-align: center;
+    float: center;
+    display:flex;
+    /*border: solid;*/
+    border-color: black;
+  
+}
+
+#mainHr{
+    margin: 10px -20px 0px;
+    border: 0;
+    border-top: 1px solid #c9c7c7;
+}
 
 .loginContainer #continueButton{
     float: center;
