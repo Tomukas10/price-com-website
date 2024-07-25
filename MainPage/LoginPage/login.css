@@ -32,7 +32,7 @@
     border-top: 1px solid #c9c7c7;
 }
 
-.loginContainer #continueButton{
+.continueButton{
     float: center;
     text-align: center;
     color:white;
@@ -43,10 +43,18 @@
     background-color: rgb(95, 95, 242);
     border: 2px solid rgb(78, 78, 222);
     border-radius: 20px;
-    padding: 0.8% 8.8%;
-
+    padding: 1% 9.8%;
+    max-width: 410px;
+    transition-duration: 0.1s;
+    cursor: pointer;
 }
-.loginContainer #continueFacebook{
+
+.continueButton:hover {
+    background-color:rgb(70, 70, 243);
+    color: white;
+}
+
+.continueFacebook{
     float: center;
     text-align: center;
     color:white;
@@ -58,9 +66,17 @@
     border: #4267b2;
     border-radius: 20px;
     padding: 1% 5%;
-
+    max-width: 410px;
+    transition-duration: 0.1s;
+    cursor: pointer;
 }
-.loginContainer #continueGoogle{
+
+.continueFacebook:hover {
+    background-color:#183c83;
+    color: white;
+}
+
+.continueGoogle{
     float: center;
     text-align: center;
     color: #444;
@@ -72,9 +88,15 @@
     background-color: #fff;
     border-radius: 20px;
     padding: 1% 5.6%;
-
+    max-width: 410px;
+    transition-duration: 0.1s;
+    cursor: pointer;
 }
-.loginContainer #continueApple{
+.continueGoogle:hover {
+    background-color:#c0c0c0;
+    color: black;
+}
+.continueApple{
     float: center;
     text-align: center;
     color: #444;
@@ -86,7 +108,11 @@
     background-color: #fff;
     border-radius: 20px;
     padding: 1% 5.9%;
-
+    max-width: 410px;
+}
+.continueApple:hover {
+    background-color:#c0c0c0;
+    color: black;
 }
 
 .signin-msg{
