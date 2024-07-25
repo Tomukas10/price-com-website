@@ -192,5 +192,23 @@ body{
     
 }
 
+.hotItemsButton > img{
+    border-radius: 90px;
+    width: 15vw; 
+    height: 12vh; 
+    object-fit: cover;
+    margin-top: 2px;
+}
+.hotItemsButton{
+    border-radius: 90px;
+    margin: 0 1% 0 1% ;
+    padding: 0 0 0 0;
+    border: 1px solid grey
+}
+
+.hotItems{
+    margin-left: 4%;
+}
+
 .limit400 { max-width:400px; }
 .limit1980 { max-width:1980px; }
