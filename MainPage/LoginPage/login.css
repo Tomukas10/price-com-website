@@ -37,24 +37,27 @@
     
     height: 50px;
     display:flex;
-    
+    justify-content: center;
+    align-items: center;
+    margin-right: 7.3%;
     
     
 }
 
 .entryArea{
     position: relative;
-    margin-left: 200px;
+    
     height: 50px;
     line-height: 30px;
 }
 
 input{
-    position:absolute;
-    width: 320px;
+    position: absolute;
+    width: 80%;
     outline: none;
-    font-size: 1.1em;
-    margin-left: 130px;
+    font-size: 1.1rem;
+    margin-left: 70px;
+    padding: 0 25px;
     line-height: 37px;
     border-radius:10px;
     border: 2px solid #000000;
@@ -64,10 +67,10 @@ input{
 }
 .labelLine{
     position: center;
-    font-size: 1.1em;
+    font-size: 1rem;
     color:#000000;
     padding: 0 25px;
-    margin: 0 150px;
+    margin: 0 90px;
     transition: 0.2s ease;
 }
 input:focus,
@@ -96,10 +99,12 @@ input:valid + .labelLine{
     background-color: rgb(95, 95, 242);
     border: 2px solid rgb(78, 78, 222);
     border-radius: 20px;
-    padding: 1% 9.8%;
+    padding: 1% 6.5%;
     max-width: 410px;
     transition-duration: 0.1s;
     cursor: pointer;
+    box-sizing: content-box;
+    
 }
 
 .continueButton:hover {
