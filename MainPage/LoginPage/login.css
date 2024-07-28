@@ -32,6 +32,59 @@
     border-top: 1px solid #c9c7c7;
 }
 
+.container{
+ 
+    
+    height: 50px;
+    display:flex;
+    
+    
+    
+}
+
+.entryArea{
+    position: relative;
+    margin-left: 200px;
+    height: 50px;
+    line-height: 30px;
+}
+
+input{
+    position:absolute;
+    width: 320px;
+    outline: none;
+    font-size: 1.1em;
+    margin-left: 130px;
+    line-height: 37px;
+    border-radius:10px;
+    border: 2px solid #000000;
+    background: transparent;
+    transition: 0.1s ease;
+    z-index: 1111;
+}
+.labelLine{
+    position: center;
+    font-size: 1.1em;
+    color:#000000;
+    padding: 0 25px;
+    margin: 0 150px;
+    transition: 0.2s ease;
+}
+input:focus,
+input:valid{
+    color:#000000;
+    border: 4px solid #000000;
+}
+input:focus + .labelLine,
+input:valid + .labelLine{
+    color:#000000;
+    height: 30px;
+    line-height: 30px;
+    padding: 0 12px;
+    transform: translate(-15px, -16px) scale(0.88);
+    z-index: 1111;
+}
+
 .continueButton{
     float: center;
     text-align: center;
