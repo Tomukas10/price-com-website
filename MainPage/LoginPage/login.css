@@ -39,7 +39,9 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-right: 7.3%;
+    margin-right: 7.3%; 
+
+    
     
     
 }
@@ -49,43 +51,55 @@
     
     height: 50px;
     line-height: 30px;
+    margin-bottom: 60px;
+    margin-top: 30px;
 }
 
 input{
     position: absolute;
     width: 80%;
     outline: none;
-    font-size: 1.1rem;
+    font-size: 1.1em;
     margin-left: 70px;
     padding: 0 25px;
-    line-height: 37px;
+    line-height: 50px;
     border-radius:10px;
     border: 2px solid #000000;
     background: transparent;
     transition: 0.1s ease;
     z-index: 1111;
+    
 }
+
+
+
 .labelLine{
-    position: center;
-    font-size: 1rem;
+    position: bottom;
+    font-size: 1em;
     color:#000000;
     padding: 0 25px;
     margin: 0 90px;
+    background-color: white;
     transition: 0.2s ease;
+  
 }
 input:focus,
 input:valid{
     color:#000000;
-    border: 4px solid #000000;
+    border: 2px solid #000000;
+    z-index: 1111;
 }
+
 input:focus + .labelLine,
 input:valid + .labelLine{
     color:#000000;
     height: 30px;
     line-height: 30px;
     padding: 0 12px;
-    transform: translate(-15px, -16px) scale(0.88);
-    z-index: 1111;
+    transform: translate(-25px, -5px) scale(0.88);
+    
+    
+    
 }
 
 .continueButton{
