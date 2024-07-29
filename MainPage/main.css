@@ -207,7 +207,7 @@ body{
     
 }
 
-.slideWriting[data-active]{
+.slideWriting{
     position: absolute;
     background: none;
     border: none;
@@ -219,7 +219,7 @@ body{
     cursor: pointer;
     border-radius: .25rem;
     padding: 0 .5rem;
-    background-color: rgba(0, 0, 0, .1);
+    background-color: rgba(0, 255, 89, 0.1);  
 }
 
 .hotItems{
