@@ -1,3 +1,7 @@
+
+
+/*################# NAVIGATION BAR ###########################*/
+
 .loginContainer{
     float: center;
     text-align: center;
@@ -32,18 +36,18 @@
     border-top: 1px solid #c9c7c7;
 }
 
+/*################# NAVIGATION BAR END ###########################*/
+
+/*################# EMAIL AND USERNAME BOX ###########################*/
+
 .container{
  
-    
     height: 50px;
     display:flex;
     justify-content: center;
     align-items: center;
     margin-right: 7.3%; 
 
-    
-    
-    
 }
 
 .entryArea{
@@ -57,12 +61,13 @@
 
 input{
     position: absolute;
-    width: 80%;
+    width: 17vw;
+    max-width: 80%;
     outline: none;
     font-size: 1.1em;
-    margin-left: 70px;
+    margin-left: 107px;
     padding: 0 25px;
-    line-height: 50px;
+    line-height: 45px;
     border-radius:10px;
     border: 2px solid #000000;
     background: transparent;
@@ -75,12 +80,13 @@ input{
 
 .labelLine{
     position: bottom;
-    font-size: 1em;
-    color:#000000;
+    font-size: 1.5em;
+    color:#5b5b5b;
     padding: 0 25px;
     margin: 0 90px;
     background-color: white;
     transition: 0.2s ease;
+    
   
 }
 input:focus,
@@ -96,11 +102,13 @@ input:valid + .labelLine{
     height: 30px;
     line-height: 30px;
     padding: 0 12px;
-    transform: translate(-25px, -5px) scale(0.88);
+    transform: translate( -220px, 7px) scale(1.1);
     
     
     
 }
+/*################# EMAIL AND USERNAME BOX END ###########################*/
+
 
 .continueButton{
     float: center;
@@ -190,8 +198,10 @@ input:valid + .labelLine{
 .signin-msg{
     float: center;
     text-align: center;
-    padding-bottom: 15px;
+    padding-bottom: 50px;
 }
+
+
 
 .heading{
     margin: 0;
