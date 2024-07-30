@@ -217,10 +217,13 @@ body{
     border-radius: 10px;
     margin: 0 1% 0 1% ;
     padding: 0 0 0 0;
-    border: 1px solid grey;
+    border: 1px solid rgb(0, 0, 0);
     
 }
 
+.hotItems{
+    margin-left: 4%;
+}
 /*################# HOT ITEMS END ###########################*/
 
 /*########################## DISCOVER BUTTON ####################################*/
@@ -270,9 +273,7 @@ body{
 
 /*########################## DISCOVER BUTTON END ###################################*/
 
-.hotItems{
-    margin-left: 4%;
-}
+
 
 .limit400 { max-width:400px; }
 .limit1980 { max-width:1980px; }

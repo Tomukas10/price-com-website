@@ -109,7 +109,7 @@ input:valid + .labelLine{
 }
 /*################# EMAIL AND USERNAME BOX END ###########################*/
 
-
+/*################# CONTINUE BUTTONS  ###########################*/
 .continueButton{
     float: center;
     text-align: center;
@@ -203,6 +203,8 @@ input:valid + .labelLine{
 
 
 
+
+
 .heading{
     margin: 0;
   font-size: 40px;
@@ -226,3 +228,4 @@ input:valid + .labelLine{
   color: #3665f3;
   cursor: pointer;
 }
+/*################# CONTINUE BUTTONS END ###########################*/
