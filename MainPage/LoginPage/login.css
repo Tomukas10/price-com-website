@@ -189,6 +189,7 @@ input:valid + .labelLine{
     border-radius: 20px;
     padding: 1% 5.9%;
     max-width: 410px;
+    cursor: pointer;
 }
 .continueApple:hover {
     background-color:#c0c0c0;

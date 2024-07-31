@@ -206,20 +206,66 @@ body{
 
 /*################# HOT ITEMS ###########################*/
 
-.hotItemsButton > img{
-    border-radius: 10px;
+.hotItems{
+    margin-left: 4%;
+    position: relative;
+  width: 100%;
+  
+}
+
+.hotItemsButton img{
+    border-radius:5%;
     width: 15vw; 
     height: 15vh; 
     object-fit: cover;
+    
     
 }
 .hotItemsButton{
     border-radius: 10px;
     margin: 0 1% 0 1% ;
     padding: 0 0 0 0;
-    border: 1px solid grey;
+    
     
 }
+/*DEMO CODE */
+.container {
+    position: relative;
+    width: 100%;
+    max-width: 400px;
+    
+  }
+  
+  .container img {
+    width: 100%;
+    height: auto;
+      border-radius: 30px;
+      position: relative
+  }
+  
+  .container .btn {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+     background:transparent;
+    color: white;
+    font-size: 16px;
+  
+    border: none;
+    cursor: pointer;
+    border-radius: 30px;
+    text-align: center;
+    width: 100%;
+    height: 100%;
+  }
+  
+  .container .btn:hover {
+    background:transparent;
+  }
+
+
 
 /*################# HOT ITEMS END ###########################*/
 
@@ -270,9 +316,7 @@ body{
 
 /*########################## DISCOVER BUTTON END ###################################*/
 
-.hotItems{
-    margin-left: 4%;
-}
+
 
 .limit400 { max-width:400px; }
 .limit1980 { max-width:1980px; }
