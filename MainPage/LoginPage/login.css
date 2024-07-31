@@ -46,7 +46,7 @@
     display:flex;
     justify-content: center;
     align-items: center;
-    margin-right: 7.3%; 
+    margin-right: 8.6%; 
 
 }
 
@@ -121,7 +121,7 @@ input:valid + .labelLine{
     background-color: rgb(95, 95, 242);
     border: 2px solid rgb(78, 78, 222);
     border-radius: 20px;
-    padding: 1% 8.1%;
+    padding: 1% 8.8%;
     max-width: 500px;
     transition-duration: 0.1s;
     cursor: pointer;
@@ -188,12 +188,7 @@ input:valid + .labelLine{
     background-color: #fff;
     border-radius: 20px;
     padding: 1% 5.9%;
-<<<<<<< HEAD
     max-width: 500px;
-=======
-    max-width: 410px;
-    cursor: pointer;
->>>>>>> 7d17592a9a3d0aed1ce8af30db06ea2aa2f0a01c
 }
 .continueApple:hover {
     background-color:#c0c0c0;
