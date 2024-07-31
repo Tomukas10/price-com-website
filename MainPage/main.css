@@ -100,6 +100,17 @@ body{
     
     
 }
+.categoryBarItems-hoverbox  :not(.categoryBarItems:hover){
+    visibility: hidden;
+}
+
+#categoryBar > .categoryBarItems:hover > .categoryBarItems-hoverbox{
+    visibility: visible;
+
+   
+    
+    
+}
 
 #categoryBar #categoryBarFavorites{
     margin-left: 5%;

@@ -121,8 +121,8 @@ input:valid + .labelLine{
     background-color: rgb(95, 95, 242);
     border: 2px solid rgb(78, 78, 222);
     border-radius: 20px;
-    padding: 1% 6.5%;
-    max-width: 410px;
+    padding: 1% 8.1%;
+    max-width: 500px;
     transition-duration: 0.1s;
     cursor: pointer;
     box-sizing: content-box;
@@ -145,8 +145,8 @@ input:valid + .labelLine{
     background-color: #4267b2;
     border: #4267b2;
     border-radius: 20px;
-    padding: 1% 5%;
-    max-width: 410px;
+    padding: 1% 5.2%;
+    max-width: 500px;
     transition-duration: 0.1s;
     cursor: pointer;
 }
@@ -168,7 +168,7 @@ input:valid + .labelLine{
     background-color: #fff;
     border-radius: 20px;
     padding: 1% 5.6%;
-    max-width: 410px;
+    max-width: 500px;
     transition-duration: 0.1s;
     cursor: pointer;
 }
@@ -188,7 +188,7 @@ input:valid + .labelLine{
     background-color: #fff;
     border-radius: 20px;
     padding: 1% 5.9%;
-    max-width: 410px;
+    max-width: 500px;
 }
 .continueApple:hover {
     background-color:#c0c0c0;
