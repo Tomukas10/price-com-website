@@ -1,0 +1,177 @@
+body{
+    background-color: #fafcfa;
+}
+/*################# NAVIGATION BAR ###########################*/
+
+.navbar .mainLogo{
+    height: 100%;
+    width: 100%;
+    border-radius: 10%;
+    float: right;
+}
+
+.navbar #mainLogoContainer{
+    max-height: 55px;
+    max-width:  55px;
+    margin-left: 3%;
+}
+
+.navbar #mainProfileContainer{
+    max-width: 50px;
+    max-height: 50px;
+    margin-left: 40%;
+    border-radius: 90%;
+}
+
+.navbar #mainProfileImage{
+    height: 100%;
+    width: 100%;
+    border: 0px solid;
+    border-radius: 90%;
+}
+
+.navbar{
+    
+   
+    overflow: hidden;
+    text-align: center;
+    float: center;
+    display:flex;
+    /*border: solid;*/
+  
+}
+
+.navbar #searchBar{
+   
+    padding: 10px;
+    margin-left: 2%;
+    width: 40%;
+    font-size: 25px;
+    margin-right: 10px;
+    border: 1px solid;
+    border-radius: 30px;
+
+
+}
+
+.navbar #category{
+    font-size: 15px;
+    background-color: lightskyblue;
+    border: 1px solid grey;
+    border-radius: 10%;
+}
+
+#mainHr{
+    margin: 5px -20px 0px;
+    border: 0;
+    border-top: 1px solid #c9c7c7;
+}
+
+.carousel{
+    width: 40vw;
+    height: 70vh;
+    position: relative;
+    left: 6%;
+    top: 2%;
+   
+}   
+
+.carousel > ul{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.slide{
+    position: absolute;
+    inset: 0;
+    opacity: 0;
+    transition: 200ms opacity ease-in-out;
+    transition-delay: 200ms;
+}
+
+.slide[data-active]{
+    opacity: 1;
+    z-index: 1;
+    transition-delay: 0ms;
+}
+
+.slide > img{
+    display: block;
+    width: 100%;
+    height: 100%;
+    object-fit: fill;
+    object-position: center;
+    border-radius: 40px;
+}
+
+
+.carousel-button{
+    position: absolute;
+    background: none;
+    border: none;
+    font-size: 2rem;
+    z-index: 2;
+    top:50%;
+    transform: translateY(-50%);
+    color: rgba(255, 255, 255, .5);
+    cursor: pointer;
+    border-radius: .25rem;
+    padding: 0 .5rem;
+    background-color: rgba(0, 0, 0, .1);
+}
+
+.carousel-button:hover,
+.carousel-button:focus{
+    color:white;
+    background-color: rgba(0, 0, 0, .2);
+
+}
+
+.carousel-button:focus{
+    
+ outline: 1px solid black;
+
+}
+
+.carousel-button.next{
+    right: 1rem;
+
+}
+
+.carousel-button.prev{
+    left: 1rem;
+    
+}
+
+.mainProductArea{
+    float: left;
+    margin-top: 2%;
+    background-color: rgb(245, 241, 241);
+    width: 100%;
+    height: 100%;
+    padding: 1% 0 2% 0%;
+    border-radius: 20px;
+    display: flex;
+    
+}
+
+
+.mainProductArea #titleArea{
+
+    position: relative;
+    margin-top: 5%;
+    left: 9%;
+    display: flex;
+    background-color: rgb(245, 241, 241);   
+    color: rgb(0, 0, 0);
+    padding: 1% 3% 1% 3%;
+    border-radius: 20px;
+    max-width: 35vw;
+    max-height: 10vh;
+    border: 1px solid rgb(166, 166, 166);
+    overflow: hidden;
+
+}
+
+
