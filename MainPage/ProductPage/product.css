@@ -1,5 +1,6 @@
 body{
     background-color: #fafcfa;
+    overflow-x:hidden; 
 }
 /*################# NAVIGATION BAR ###########################*/
 
